@@ -1,0 +1,131 @@
+/* Start our framework */
+
+body{
+    font-family: 'Open Sans' , sans-serif;
+    /* height: 3000px; */
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.table{
+    height: 100%;
+    display: table;
+}
+
+.table-row{
+    display: table-row;
+    height: 100%;
+}
+.text-center{
+    text-align: center;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.main-color{
+    color: #f7600e;
+}
+
+.main-background{
+    background-color: #f7600e;
+}
+
+.header{
+    background: url('../assets/images/callcenter2.jpg');
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;  
+    color: #FFF;
+
+}    
+
+
+.header .intro p{
+    /* font-weight: bold; */
+    margin: 20px 0 30px;
+    line-height: 1.8;
+    color: #E2E2E2;
+}
+
+.header .intro h1{
+    
+    margin: 0;
+    font-weight: 800;
+}
+
+
+.header .navbar{
+    overflow: hidden;
+    padding: 20px 0;
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 0px; */
+    width: 100%;
+
+}
+
+.header .navbar .links{
+    float: right;
+    /* margin-left: 50px; */
+}
+
+.header .navbar .links i{
+    margin-left: 5px;
+}
+
+
+.overlay{
+    /*correct*/
+    background: rgba(49, 55, 61, 0.8);
+    /* background: rgba(180, 55, 61, 0.9); */
+    width: 100%;
+    height: 100%;
+}
+
+
+.header .buttons button{ 
+    cursor: pointer;
+    background: transparent;
+    padding: 10px 0;
+    width: 180px;
+    font-size: 14px;
+    border: 1px solid #909090;
+    margin: 0 8px;
+    border-radius: 10px;
+    -webkit-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;    
+    transition:all .5s ease-in-out;
+}
+
+
+.header .buttons button:hover{ 
+    background-color: #f7600e;
+}
+
+.header .arrow{
+    position: absolute;
+    left: 0;
+    bottom: 6px;
+    width: 100%;
+    text-align: center;
+}
+
+.header .arrow i{
+    cursor: pointer;
+    border: 1px solid #7B7B7B;
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    line-height: 33px;
+}
+
+
+/* End our Framework */ 

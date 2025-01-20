@@ -1,0 +1,228 @@
+.features{
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+#ScrollTofeatures{
+    /* just for scrolling. Thanks!*/
+    margin: 0;
+}
+
+
+.features .box{
+    width: 21%;
+    float: left;
+    margin-right: 4%;
+}
+
+.features .box:first-child{
+    margin-left: 48px;
+}
+
+.features .box:last-child{
+    margin-right: 0;
+}
+
+.features .box i{
+    color: #f7600e;
+    border: 1px solid #CCC;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+
+}
+
+.features .box h3{
+    text-transform: uppercase;
+    font-weight: normal;
+    color :#505050;
+}
+
+.features .box p{
+    line-height: 2;
+    color: #666;
+
+}
+
+.features .box i:hover{
+    background-color : #f7600e;
+    color: white;
+}
+
+
+.my-boxes{
+    width: 25%;
+}
+/* Begin CSS for Extra section */
+
+.subscribe{
+    background: url('../../../../assets/images/call-center-boy.jpg');
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;  
+    color: #FFF;
+    height: 540px;  
+    width: 100%;
+}
+
+.fill{
+    padding: 20px 0;
+    width: 100%;
+
+}
+
+
+.paragraph p{
+        /* display: inline-block; */
+        margin-left: 4em;
+    
+}
+.paragraph h1{
+   color:  #f7600e;
+   text-transform: uppercase;
+   /* line-height: 30px; */
+
+}
+
+.paragraph .icon{
+    color: white;
+}
+
+
+/* END CSS for Extra section */
+
+
+/* Start Our Team */
+
+.our-team{
+    padding: 10px 0;
+    width: 100%;
+}
+
+
+.our-team h2{
+    font-size: 35px;
+}
+
+
+
+.our-team .move-up{
+    margin-top: -15px;
+}
+
+
+.the-team img{
+    width: 265px;
+    height: 200px;
+    filter: gray;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+}
+
+.our-team .the-team{
+    overflow: hidden;
+    /* margin-left: 100px; */
+}
+
+.our-team .the-team .person{
+    float:left;
+    width: 25%;
+    overflow: hidden;
+    color: #888;
+}
+
+.our-team .the-team .person:hover img{
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+.our-team .the-team .person:hover{
+    color: #555;
+}
+.our-team .the-team .person p{
+    font-size: 15px;
+}
+
+.our-team .the-team .social-icons i{
+    background-color: #9da1a5;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin-right: 4px;
+    color: #FFF;
+}
+
+
+.our-team .the-team .person:hover .fa-facebook{
+    background-color: #3b5998;
+}
+
+.our-team .the-team .person:hover .fa-twitter{
+    background-color: #55acee;
+}
+
+
+.our-team .the-team .person:hover .fa-linkedin{
+    background-color: #006994;
+}
+
+
+.center-p-h{
+    text-align: center;
+}
+/* END Our Team */
+
+/* Start Footer*/
+
+.footer{
+    background: url('../../../../assets/images/greytech.png');
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;  
+    height: 280px;  
+    color: white;
+    width: 100%;
+    overflow:hidden;
+
+
+}
+
+
+.footer-info{
+    width: 100%;
+}
+
+.footer-info .address{
+    color: white;
+    margin-left: -100px;
+}
+
+
+
+.footer-info .part{
+    float: left;
+    width: 35%;
+}
+
+
+.footer .overlay{
+    margin-top: -20px;
+}
+
+.overlay .follow-us{
+    width: 100%;
+    /* margin-left: 250px; */
+}
+
+.move-right{
+    margin-right: -400px;
+}
+
+/* END Footer*/
